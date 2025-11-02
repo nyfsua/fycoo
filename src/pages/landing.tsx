@@ -1,5 +1,6 @@
 import heroLockup from "../assets/hero-lockup.svg";
 import barcode from "../assets/barcode.svg";
+import barcodeMobile from "../assets/barcode-mobile.svg";
 import sprntLockup from "../assets/sprnt-lockup.svg";
 import heroLockupMobile from "../assets/heroLockupMobile.svg";
 import orangeDot from "../assets/orange-dot.png";
@@ -59,11 +60,11 @@ export default function Landing() {
 
         {/* barcode full width bottom */}
         <img
-          src={barcode}
-          alt="Barcode"
-          className="absolute left-0 bottom-0 w-[100vw] h-auto select-none"
-          draggable={false}
-        />
+  src={barcodeMobile}
+  alt="Barcode (mobile)"
+  className="block md:hidden absolute left-0 bottom-0 w-[100vw] h-auto select-none"
+  draggable={false}
+/>
       </div>
 
       {/* ===== DESKTOP+ ===== */}
