@@ -4,7 +4,7 @@ export default function Mission() {
       <div className="max-w-3xl p-6 text-center">
         <h1 className="text-4xl md:text-6xl font-semibold">Our Mission</h1>
         <p className="mt-6 text-neutral-400">
-          We’ll craft this page after the landing is locked.
+          e fun mi ni 5 minutes.
         </p>
       </div>
     </div>
